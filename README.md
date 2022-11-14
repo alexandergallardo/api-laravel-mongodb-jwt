@@ -47,7 +47,7 @@ vendor/bin/phpunit
 vendor/bin/phpunit --testsuite Feature
 ```
  
-ENDPOINTS
+## EndPoints
 ```bash
 GET access token 
 POST ->  http://127.0.0.1:8000/api/auth/auth
