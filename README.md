@@ -58,7 +58,7 @@ POST ->  http://127.0.0.1:8000/api/auth/auth
   }
 ```
 ```bash
-ADD
+ADD: Send token in header( Bearer Token )
 POST ->  http://127.0.0.1:8000/api/lead
   Body
   {
@@ -68,10 +68,10 @@ POST ->  http://127.0.0.1:8000/api/lead
   }
 ```
 ```bash
-GET by ID
+GET by ID: Send token in header( Bearer Token )
 GET  ->  http://127.0.0.1:8000/api/auth/lead/{id}
 ```
 ```bash
-GET All
+GET All : Send token in header( Bearer Token )
 GET  ->  http://127.0.0.1:8000/api/leads
 ```
