@@ -38,6 +38,15 @@ A simple API REST with Laravel 8 + Laravel 8 + JWT + MongoDB.
 - Url: http://localhost:8000/api/documentation
 - 
 
+## Unit Test
+#### run PHPUnit
+```bash
+# run PHPUnit all test cases
+vendor/bin/phpunit
+# or Feature test only
+vendor/bin/phpunit --testsuite Feature
+```
+ 
 ENDPOINTS
 ```bash
 GET access token 
